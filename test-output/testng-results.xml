@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-25T23:54:53 IST" name="Default suite" finished-at="2024-11-25T23:55:25 IST" duration-ms="31955">
+  <suite started-at="2024-11-26T00:08:43 IST" name="Default suite" finished-at="2024-11-26T00:09:16 IST" duration-ms="32976">
     <groups>
     </groups>
-    <test started-at="2024-11-25T23:54:53 IST" name="Default test" finished-at="2024-11-25T23:55:25 IST" duration-ms="31955">
+    <test started-at="2024-11-26T00:08:43 IST" name="Default test" finished-at="2024-11-26T00:09:16 IST" duration-ms="32976">
       <class name="fitpeoAutomation.WithTestNG">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:fitpeoAutomation.WithTestNG@5b12b668]" started-at="2024-11-25T23:54:53 IST" name="Setup" finished-at="2024-11-25T23:55:00 IST" duration-ms="6470" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:fitpeoAutomation.WithTestNG@5b12b668]" started-at="2024-11-26T00:08:43 IST" name="Setup" finished-at="2024-11-26T00:08:50 IST" duration-ms="6806" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="InputTest()[pri:0, instance:fitpeoAutomation.WithTestNG@5b12b668]" started-at="2024-11-25T23:55:00 IST" name="InputTest" finished-at="2024-11-25T23:55:11 IST" duration-ms="11492" status="FAIL">
+        <test-method signature="InputTest()[pri:0, instance:fitpeoAutomation.WithTestNG@5b12b668]" started-at="2024-11-26T00:08:50 IST" name="InputTest" finished-at="2024-11-26T00:09:02 IST" duration-ms="11809" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -55,11 +55,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InputTest -->
-        <test-method signature="TestAmount()[pri:0, instance:fitpeoAutomation.WithTestNG@5b12b668]" started-at="2024-11-25T23:55:11 IST" name="TestAmount" finished-at="2024-11-25T23:55:25 IST" duration-ms="13665" status="PASS">
+        <test-method signature="TestAmount()[pri:0, instance:fitpeoAutomation.WithTestNG@5b12b668]" started-at="2024-11-26T00:09:02 IST" name="TestAmount" finished-at="2024-11-26T00:09:16 IST" duration-ms="13872" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestAmount -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:fitpeoAutomation.WithTestNG@5b12b668]" started-at="2024-11-25T23:55:25 IST" name="TearDown" finished-at="2024-11-25T23:55:25 IST" duration-ms="285" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:fitpeoAutomation.WithTestNG@5b12b668]" started-at="2024-11-26T00:09:16 IST" name="TearDown" finished-at="2024-11-26T00:09:16 IST" duration-ms="433" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->

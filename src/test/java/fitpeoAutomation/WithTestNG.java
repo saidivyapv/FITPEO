@@ -42,9 +42,6 @@ public class WithTestNG {
 	WebElement slider=driver.findElement(By.xpath("//span[@class='MuiSlider-root MuiSlider-colorPrimary MuiSlider-sizeMedium css-16i48op']/span[3]"));
 	
 	js.executeScript("window.scrollBy(0,500)","");
-	//input box
-	//WebElement input=driver.findElement(By.xpath("//div[@class='MuiFormControl-root MuiTextField-root css-1s5tg4z']//input"));
-	
 	input.click();
 	act.sendKeys(Keys.BACK_SPACE).sendKeys(Keys.BACK_SPACE).sendKeys(Keys.BACK_SPACE).perform();
 	Thread.sleep(2000);
@@ -56,14 +53,19 @@ public class WithTestNG {
 	act.sendKeys(Keys.BACK_SPACE).sendKeys(Keys.BACK_SPACE).sendKeys(Keys.BACK_SPACE).perform();
 	Thread.sleep(4000);
 	slider.click();
+	
 	// Drag the slider to 560
 	act.dragAndDropBy(slider,84,0).perform();//857-773
 	Point Loc2=slider.getLocation();
 	System.out.println(Loc1 + "" +Loc2);
+	
 	//checking if both slider position and text entered is in sync
 	String value= input.getText()	;
+	
 	// after moving slider, checking if it points to same number
 	Assert.assertTrue(value.equals("560"));	
+	// here in this case, slider is not changing according to text entered
+	
 	}
 	
 	@Test
